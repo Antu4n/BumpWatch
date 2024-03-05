@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    // Add the Google services Gradle plugin
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -35,6 +37,8 @@ android {
     }
 }
 
+
+
 dependencies {
 
     val fragment_version = "1.6.2"
@@ -53,4 +57,15 @@ dependencies {
 
     implementation("androidx.navigation:navigation-fragment-ktx:2.3.5")
     implementation ("androidx.navigation:navigation-ui-ktx:2.3.5")
+
+    // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:32.7.3"))
+
+    //TODO: Add the dependecies for Firebase products you want to use
+    //When using the BoM, don't specify version in Firebase dependencies
+    implementation("com.google.firebase:firebase-analytics")
+
+    //Add the dependency for the Firebase Authentication library
+    implementation("com.google.firebase:firebase-auth")
+
 }
