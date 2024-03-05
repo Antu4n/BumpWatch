@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686697164175",
+    "project_id": "bump-watch",
+    "storage_bucket": "bump-watch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686697164175:android:ae2b5838cb3d2a77f16ffa",
+        "android_client_info": {
+          "package_name": "com.example.bumpwatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixcOo6SBIVKYKAQ7shLoe_gfJYc8jdkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
